@@ -1,0 +1,163 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #1f2937;
+}
+
+header {
+    margin: 0;
+    padding-left: 150px;
+    padding-bottom: 20px;
+    height: auto;
+    color: white;
+}
+
+#a {
+    
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cat-links {
+    display: inline-flex;   
+    flex-direction: row;
+    margin-left: 50%;
+    width: auto;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.name {
+    width: 100px;
+    flex: 1;
+}
+
+.both {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+}
+
+.opening {
+    display:flex;
+    padding-top: 50px;
+    justify-content:space-between;
+    flex-direction: column;
+    width: 35%;
+}
+
+#b {
+    
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    width: 75px;
+    align-self: center;
+    border-radius: 20px;
+}
+
+#all {
+    height: 150px;
+    width: 250px;
+    margin-right: 125px;
+    float: right;
+    align-self: center;
+    padding-top: 20px;
+}
+
+.s1 {
+    height: 300px;
+    background-color: white;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.pics {
+    display: flex;
+    height: 120px;
+    margin-top: 20px;
+    width: 900px;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 225px;
+    margin-right: 200px;
+    margin-bottom: 0px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 25px;
+}
+
+.captions {
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    justify-content: space-between;
+    align-content: center;
+    margin-left: 225px;
+    margin-right: 200px;
+}
+
+.quote {
+    display: flex;
+    background-color: #e5e7eb;
+    height: 300px;
+    font-style:italic;
+    font-size: 24px;
+    flex-direction: column;
+    padding-left: 35%;
+    justify-content: flex-start;
+}
+
+.p1 { 
+    max-width: 50%;
+}
+
+#author {
+    font-style: normal;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+    max-width: 50%;
+    max-height:24px;
+}
+
+.signup {
+    background-color: white;
+    height: 300px;
+    max-height: 300px;
+    color: white;
+    margin-top: 0;
+    padding-top: 60px;
+}
+
+#sign {
+    width: 60%;
+    height: 40%;
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 25px;
+}
+
+#end {
+    margin-left: 450px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
